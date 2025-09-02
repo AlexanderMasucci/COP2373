@@ -24,8 +24,7 @@ def tic_input(tickets):
 
     # Preamble.
     print()
-    print('How many tickets would you like to purchase?')
-    print('Please enter a number between 1 and 4.')
+    print('Please choose a number of tickets to be purchased, from 1 to 4.')
 
     # User input a number of tickets they want to buy.
     try:
@@ -38,7 +37,7 @@ def tic_input(tickets):
     # Check if there are enough tickets remaining.
     if ticket_buy > tickets:
         print('Sorry, there are not enough tickets remaining.')
-        return tickets #
+        return tickets
 
     # Check if there was a valid number of tickets input.
     if ticket_buy in range(0, 5):
