@@ -6,7 +6,7 @@ def main():
     print('Cinema Ticket Pre-Sale Simulator.')
 
     # Number of tickets remaining
-    tickets = 20
+    tickets = 10
 
     # Loop until no tickets remain
     while tickets > 0:
