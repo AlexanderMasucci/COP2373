@@ -57,7 +57,7 @@ def spam_scan(email, matched):
             matched.append(word)
     return matched
 
-# Che
+# Checks the "spam score" and tells the user if their email may be spam
 def spam_score(matched):
     # Get total number of matching words.
     score = len(matched)
